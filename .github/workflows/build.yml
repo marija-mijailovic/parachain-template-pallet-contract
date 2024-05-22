@@ -3,7 +3,7 @@ name: Build, test and lint
 on:
   push:
     branches:
-      - release-**
+      - main
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
 
